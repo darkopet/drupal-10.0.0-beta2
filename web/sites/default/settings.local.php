@@ -116,7 +116,7 @@ $config['system.performance']['js']['preprocess'] = TRUE;
  * be gained by generating a query string from rebuild_token_calculator.sh and
  * using these parameters in a request to rebuild.php.
  */
-$settings['rebuild_access'] = TRUE;
+$settings['rebuild_access'] = FALSE;
 
 /**
  * Skip file system permissions hardening.
@@ -128,7 +128,7 @@ $settings['rebuild_access'] = TRUE;
  * user pulling in the changes won't have permissions to modify files in the
  * directory.
  */
-$settings['skip_permissions_hardening'] = TRUE;
+$settings['skip_permissions_hardening'] = FALSE;
 
 /**
  * Exclude modules from configuration synchronization.
