@@ -1,0 +1,33 @@
+uuid: 5f20ca99-c688-4312-a8ef-5cea46d61c5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.services_paragraph.field_service
+    - field.field.paragraph.services_paragraph.field_service_image
+    - paragraphs.paragraphs_type.services_paragraph
+  module:
+    - image
+id: paragraph.services_paragraph.default
+targetEntityType: paragraph
+bundle: services_paragraph
+mode: default
+content:
+  field_service:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_service_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

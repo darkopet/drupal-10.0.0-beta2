@@ -1,0 +1,10 @@
+uuid: 54a46991-2924-4c25-bb83-029d6030fc81
+langcode: en
+status: true
+dependencies: {  }
+id: products_paragraph
+label: 'Products Paragraph'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

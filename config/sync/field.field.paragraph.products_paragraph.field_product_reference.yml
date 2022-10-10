@@ -1,0 +1,29 @@
+uuid: 384dd21b-b24e-431f-ae57-9c74337a4521
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_reference
+    - paragraphs.paragraphs_type.products_paragraph
+    - taxonomy.vocabulary.products
+id: paragraph.products_paragraph.field_product_reference
+field_name: field_product_reference
+entity_type: paragraph
+bundle: products_paragraph
+label: 'Product reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      products: products
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

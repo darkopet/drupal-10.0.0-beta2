@@ -1,0 +1,37 @@
+uuid: 0eae9444-deab-4365-a0d8-a2dbbdc46a9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.services_paragraph.field_service
+    - field.field.paragraph.services_paragraph.field_service_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.services_paragraph
+  module:
+    - image
+id: paragraph.services_paragraph.default
+targetEntityType: paragraph
+bundle: services_paragraph
+mode: default
+content:
+  field_service:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_service_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,51 @@
+uuid: cc431c3f-bb0e-4c23-9d79-02eed53a46a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.content_editing_type
+    - paragraphs.paragraphs_type.products_paragraph
+    - paragraphs.paragraphs_type.services_paragraph
+  module:
+    - entity_reference_revisions
+id: node.content_editing_type.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: content_editing_type
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      products_paragraph: products_paragraph
+      services_paragraph: services_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_1:
+        weight: 8
+        enabled: false
+      paragraph_2:
+        weight: 9
+        enabled: false
+      paragraph_3:
+        weight: 10
+        enabled: false
+      paragraph_4:
+        weight: 11
+        enabled: false
+      paragraph_5:
+        weight: 12
+        enabled: false
+      products_paragraph:
+        weight: 13
+        enabled: true
+      services_paragraph:
+        weight: 14
+        enabled: true
+field_type: entity_reference_revisions

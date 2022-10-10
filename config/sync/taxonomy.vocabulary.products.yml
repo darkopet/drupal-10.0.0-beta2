@@ -1,0 +1,8 @@
+uuid: bfa30566-d677-4af0-b74a-efbbb818d4c8
+langcode: en
+status: true
+dependencies: {  }
+name: Products
+vid: products
+description: 'Company Products'
+weight: 0

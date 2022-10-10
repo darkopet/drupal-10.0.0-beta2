@@ -1,0 +1,8 @@
+uuid: eba8963c-8045-4f87-b9f3-b0e031ff05af
+langcode: en
+status: true
+dependencies: {  }
+name: Locations
+vid: locations
+description: 'Company Locations'
+weight: 0

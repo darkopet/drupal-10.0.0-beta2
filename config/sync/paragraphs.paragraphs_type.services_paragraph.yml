@@ -1,0 +1,10 @@
+uuid: f89863aa-4caa-4429-a6b2-2a669548e36a
+langcode: en
+status: true
+dependencies: {  }
+id: services_paragraph
+label: 'Services Paragraph'
+icon_uuid: null
+icon_default: null
+description: 'Front Page Services Paragraph.'
+behavior_plugins: {  }

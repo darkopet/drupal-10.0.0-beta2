@@ -1,0 +1,33 @@
+uuid: 4cbb5900-d23f-414e-b358-2169a393264f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.products_paragraph.field_product_image
+    - field.field.paragraph.products_paragraph.field_product_reference
+    - paragraphs.paragraphs_type.products_paragraph
+  module:
+    - image
+id: paragraph.products_paragraph.default
+targetEntityType: paragraph
+bundle: products_paragraph
+mode: default
+content:
+  field_product_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_product_reference:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
