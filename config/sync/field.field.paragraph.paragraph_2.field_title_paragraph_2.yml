@@ -1,0 +1,21 @@
+uuid: b4fedba5-4f51-4d39-91ce-d5ff7c623a55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_paragraph_2
+    - paragraphs.paragraphs_type.paragraph_2
+  module:
+    - text
+id: paragraph.paragraph_2.field_title_paragraph_2
+field_name: field_title_paragraph_2
+entity_type: paragraph
+bundle: paragraph_2
+label: 'Title Paragraph 2'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,42 @@
+uuid: 2b272fd3-ec15-478c-a60d-13690eaf604d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_testing_paragraph_1
+    - paragraphs.paragraphs_type.paragraph_1
+  module:
+    - entity_reference_revisions
+id: paragraph.paragraph_1.field_testing_paragraph_1
+field_name: field_testing_paragraph_1
+entity_type: paragraph
+bundle: paragraph_1
+label: 'Testing Paragraph 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraph_1: paragraph_1
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_1:
+        weight: 6
+        enabled: true
+      paragraph_2:
+        weight: 7
+        enabled: false
+      paragraph_3:
+        weight: 8
+        enabled: false
+      paragraph_4:
+        weight: 9
+        enabled: false
+      paragraph_5:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

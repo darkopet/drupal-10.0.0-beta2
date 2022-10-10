@@ -1,0 +1,21 @@
+uuid: b71d5e3f-73ac-4646-a9df-29dd2f7bc9d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_user_paragraph_1
+    - paragraphs.paragraphs_type.paragraph_1
+id: paragraph.paragraph_1.field_user_paragraph_1
+field_name: field_user_paragraph_1
+entity_type: paragraph
+bundle: paragraph_1
+label: 'User Paragraph 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings: {  }
+field_type: entity_reference

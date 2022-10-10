@@ -1,0 +1,29 @@
+uuid: e7115277-14af-4364-8a11-5352290098b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tax_term_paragraph_1
+    - paragraphs.paragraphs_type.paragraph_1
+    - taxonomy.vocabulary.tags
+id: paragraph.paragraph_1.field_tax_term_paragraph_1
+field_name: field_tax_term_paragraph_1
+entity_type: paragraph
+bundle: paragraph_1
+label: 'Tax Term Paragraph 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
