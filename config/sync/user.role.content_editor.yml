@@ -4,14 +4,21 @@ status: true
 dependencies:
   config:
     - node.type.article
+    - node.type.content_editing_type
     - node.type.page
+    - taxonomy.vocabulary.locations
+    - taxonomy.vocabulary.products
+    - taxonomy.vocabulary.services
     - taxonomy.vocabulary.tags
   module:
     - comment
     - contextual
     - file
     - node
+    - paragraphs
     - path
+    - search
+    - shortcut
     - system
     - taxonomy
     - toolbar
@@ -27,22 +34,63 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access taxonomy overview'
   - 'access toolbar'
   - 'access tour'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer paragraphs settings'
+  - 'administer paragraphs types'
+  - 'administer search'
+  - 'administer shortcuts'
+  - 'administer taxonomy'
   - 'administer url aliases'
+  - 'bypass node access'
   - 'create article content'
+  - 'create content_editing_type content'
   - 'create page content'
+  - 'create terms in locations'
+  - 'create terms in products'
+  - 'create terms in services'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'customize shortcut links'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any content_editing_type content'
+  - 'delete any page content'
   - 'delete article revisions'
+  - 'delete content_editing_type revisions'
   - 'delete own article content'
+  - 'delete own content_editing_type content'
   - 'delete own page content'
   - 'delete page revisions'
+  - 'delete terms in locations'
+  - 'delete terms in products'
+  - 'delete terms in services'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any content_editing_type content'
+  - 'edit any page content'
+  - 'edit behavior plugin settings'
   - 'edit own article content'
   - 'edit own comments'
+  - 'edit own content_editing_type content'
   - 'edit own page content'
+  - 'edit terms in locations'
+  - 'edit terms in products'
+  - 'edit terms in services'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert content_editing_type revisions'
+  - 'revert page revisions'
+  - 'switch shortcut sets'
+  - 'use advanced search'
   - 'view all revisions'
+  - 'view article revisions'
+  - 'view content_editing_type revisions'
   - 'view own unpublished content'
+  - 'view page revisions'
   - 'view the administration theme'
+  - 'view unpublished paragraphs'
