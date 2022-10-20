@@ -1,0 +1,10 @@
+uuid: 61468e4b-2546-4f6b-86b6-c16fae131e97
+langcode: en
+status: true
+dependencies: {  }
+id: philanthropy_paragraph
+label: 'Philanthropy Paragraph'
+icon_uuid: null
+icon_default: null
+description: 'Description of the Philanthropy Paragraph.'
+behavior_plugins: {  }

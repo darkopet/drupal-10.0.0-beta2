@@ -1,0 +1,10 @@
+uuid: 30c92df2-ba3f-49b4-ba2d-b41f23338b37
+langcode: en
+status: true
+dependencies: {  }
+id: locations_paragraph
+label: 'Locations Paragraph'
+icon_uuid: null
+icon_default: null
+description: 'Description of the Location Paragraph'
+behavior_plugins: {  }
