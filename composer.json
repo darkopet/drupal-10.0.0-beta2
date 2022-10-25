@@ -21,7 +21,8 @@
         "drupal/core-recommended": "^10.0",
         "drupal/entity_reference_revisions": "^1.10",
         "drupal/paragraphs": "^1.15",
-        "drush/drush": "^11.2"
+        "drush/drush": "^11.2",
+        "google/apiclient": "^2.12"
     },
     "conflict": {
         "drupal/drupal": "*"
